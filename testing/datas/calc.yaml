@@ -57,6 +57,7 @@ sub:
     - 'sub(failed1)'
     - 'sub(zero1)'
 
+
 mul:
   datas:
     - - 4
