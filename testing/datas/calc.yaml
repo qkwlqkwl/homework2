@@ -7,18 +7,18 @@ add:
       - 100
       - 200
     - [0.1,0.2,0.3]
-    - [0.1,-0.2,-0.1]
+    - [0.1,-0.2,0.3]
     - [-1,-1,-2]
     - [0.1,1,1.1]
     - [0,0,0]
   myid:
-    - 'int'
-    - 'bigint'
-    - 'float'
-    - 'failed'
-    - 'nagetive'
-    - 'intAddFloat'
-    - 'zero'
+    - 'add(int)'
+    - 'add(bigint)'
+    - 'add(float)'
+    - 'add(failed)'
+    - 'add(nagetive)'
+    - 'add(intAddFloat)'
+    - 'add(zero)'
 div:
   datas:
     - - 4
@@ -32,8 +32,46 @@ div:
     - [2,0,0]
 
   myid:
-    - 'int1'
-    - 'bigint1'
-    - 'float1'
-    - 'failed1'
-    - 'zero1'
+    - 'div(int1)'
+    - 'div(bigint1)'
+    - 'div(float1)'
+    - 'div(failed1)'
+    - 'div(zero1)'
+
+sub:
+  datas:
+    - - 4
+      - 2
+      - 2
+    - - 100
+      - 100
+      - 0
+    - [0.1,0.2,-0.1]
+    - [-1,1,-2]
+    - [0,0,0]
+
+  myid:
+    - 'sub(int1)'
+    - 'sub(bigint1)'
+    - 'sub(float1)'
+    - 'sub(failed1)'
+    - 'sub(zero1)'
+
+mul:
+  datas:
+    - - 4
+      - 2
+      - 7
+    - - 100
+      - 100
+      - 10000
+    - [0.1,0.2,0.02]
+    - [-1,1,-1]
+    - [0,0,0]
+
+  myid:
+    - 'mul(int1)'
+    - 'mul(bigint1)'
+    - 'mul(float1)'
+    - 'mul(failed1)'
+    - 'mul(zero1)'
