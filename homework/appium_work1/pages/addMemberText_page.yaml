@@ -1,0 +1,9 @@
+addMemberText:
+  - locator: b7m
+    action: send_key
+    value: aaa001
+  - locator: fwi
+    action: send_key
+    value: 15011111111
+  - locator: aj_
+    action: findId_click
