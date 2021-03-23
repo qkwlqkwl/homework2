@@ -1,9 +1,17 @@
 addMemberText:
-  - locator: b7m
+  - by: id
+    locator: b7m
     action: send_key
     value: aaa001
-  - locator: fwi
+  - by: id
+    locator: fwi
     action: send_key
     value: 15011111111
-  - locator: aj_
-    action: findId_click
+  - by: id
+    locator: aj_
+    action: find_click
+
+varity_ok:
+  - by: xpath
+    locator: //*[@text='添加成功']
+    action: find

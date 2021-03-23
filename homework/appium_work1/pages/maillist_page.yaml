@@ -1,0 +1,11 @@
+goto_addmember_page:
+  - by: xpath
+    locator: //*[@text='添加成员']
+    action: swip_click
+    value: 添加成员
+
+
+goto_searchname_page:
+  - by: xpath
+    locator: //*[@resource-id='com.tencent.wework:id/igk']
+    action: find_click

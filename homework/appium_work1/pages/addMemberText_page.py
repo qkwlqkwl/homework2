@@ -5,6 +5,9 @@ class AddMemberTextPage(BasePages):
     def addMemberText(self):
         self.parse_action("../pages/addMemberText_page.yaml", "addMemberText")
 
+    def varity_ok(self):
+        self.parse_action("../pages/editcontact_page.yaml", "varity_ok")
+
 
 
 

@@ -1,0 +1,4 @@
+goto_editPersonalInformation_page:
+  - by: id
+    locator: com.tencent.wework:id/iga
+    action: find_click

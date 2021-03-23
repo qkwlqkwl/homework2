@@ -1,3 +1,8 @@
 goto_maillist_page:
-  - locator: //*[@text='通讯录']
+  - by: xpath
+    locator: //*[@text='待办']
+    action: find_click
+
+  - by: xpath
+    locator: //*[@text='通讯录']
     action: find_click

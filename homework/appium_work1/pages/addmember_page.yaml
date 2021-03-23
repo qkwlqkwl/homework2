@@ -1,3 +1,4 @@
 addmember:
-  - locator: //*[@text='手动输入添加']
+  - by: xpath
+    locator: //*[@text='手动输入添加']
     action: find_click

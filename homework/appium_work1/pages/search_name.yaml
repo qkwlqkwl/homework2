@@ -1,0 +1,19 @@
+goto_Personalinformation_page:
+  - by: xpath
+    locator: //*[@resource-id='com.tencent.wework:id/gy9']
+    action: send_keys
+    value: ${username}
+
+  - by: xpath
+    locator: //*[@text='${username}' and @class='android.widget.TextView']
+    action: finds_click
+
+searchname:
+  - by: xpath
+    locator: //*[@resource-id='com.tencent.wework:id/gy9']
+    action: send_keys
+    value: ${username}
+
+  - by: xpath
+    locator: //*[@text='${username}' and @class='android.widget.TextView']
+    action: finds
